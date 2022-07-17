@@ -1,0 +1,201 @@
+.contents {
+  display: flex;
+}
+
+.main-visual {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('main_visual.jpg') top center / cover no-repeat;
+  width: 33%;
+}
+
+p {
+  margin: 10px;
+  font-size: 30px;
+  font-weight: normal;
+  color: #fff;
+  
+}
+
+/* // plan一覧 */
+.service-explain {
+  background-color: #faf4f4;
+}
+.ad-explain {
+  margin: 250px 0 0 100px;
+  
+}
+
+/* .transaction-form-wrap {
+  background-color: red;
+} */
+.plan-form {
+  height: 500px;
+  margin: 150px 25px 30px 30px;
+  text-align: center; 
+}
+
+.ad-plan {
+  font-size: 40px;
+  
+}
+
+.price-card {
+  border: solid rgb(226, 225, 225);
+  margin-top: 15px;
+  border-radius: 20px;
+  height: 400px;
+}
+
+.reserve-btn-text {
+  padding-top: 40px;
+  
+}
+
+.price-card h3 {
+   margin-top: 10px;
+   border-bottom: solid rgb(226, 225, 225);
+  
+ }
+
+.price-card h4 {
+   font-size: 200%;
+   margin-top: 40px;
+   
+}
+
+.per {
+   font-size: 12px;
+   
+}
+
+.plan-name-no {
+  margin-top: 25px;
+  font-size: 17px;
+}
+
+.plan-name-food {
+  margin-top: 35px;
+  font-size: 17px;
+}
+
+.plan-name-craft {
+  font-size: 17px;
+  margin: 20px 20px 50px 20px;
+}
+
+.plan-name-craft-one {
+  font-size: 17px;
+  margin: 30px 20px 55px 20px;
+}
+.plan-name-craft-another {
+  font-size: 17px;
+  margin: 30px 20px 20px 20px;
+}
+
+.plan-name-gift {
+  margin: 7px 22px 15px 22px;
+  font-size: 17px;
+}
+
+.reserve-btn-text {
+ border: solid rgb(226, 225, 225);
+ padding: 5px;
+ border-radius: 5px;
+ background-color:  rgb(234, 230, 230);
+ text-align: center; 
+}
+
+
+@media (max-width: 1020px) {
+  .contents {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-visual {
+   width: 100%;
+  }
+
+  p {
+    font-size: 30px;
+    width: 90%;
+  }
+  /* plan一覧 */
+  .plan-name-food {
+    margin-top: 20px;
+    font-size: 17px;
+  }
+  .plan-name-craft {
+    font-size: 17px;
+    margin: 10px;
+    margin-bottom: 20px;
+  }
+
+  .plan-name-craft-one {
+    font-size: 17px;
+    margin: 10px;
+    margin-bottom: 20px;
+  }
+
+  .plan-name-craft-another {
+    font-size: 17px;
+    margin: 10px;
+    margin-bottom: 20px;
+  }
+
+  .plan-name-gift {
+    margin: 10px;
+    font-size: 17px;
+  }
+
+  .price-card h4 {
+    font-size: 150%;
+    margin-top: 20px;
+    
+ }
+}
+@media (max-width: 757px) {
+  /* plan一覧 */
+  .plan-name-craft {
+    font-size: 17px;
+    margin: 15px 10px 15px 10px;
+  }
+
+  .plan-name-craft-one {
+    font-size: 17px;
+    margin: 15px 10px 15px 10px;
+  }
+
+  .plans {
+    height: 1000px;
+    margin: 50px 25px 5px 30px;
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ad-explain {
+    margin: 100px 30px 50px 30px;
+  }
+
+  .price-card h4 {
+    font-size: 300%;
+    margin-top: 20px;
+ }
+    
+  .price-card {
+    height: 500px;
+ }
+
+  .plan-form {
+    height: 1150px;
+  }
+
+  .plan-name-gift {
+    margin: 0px 10px 5px 10px;
+    font-size: 17px;
+  }
+  
+}
