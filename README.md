@@ -71,6 +71,9 @@ Basic認証ID: 2222
 | allergy          | string     |                                |
 | nationality      | string     | null: false                    |
 | phone_number     | string     | null: false                    |
+| day              | date       | null: false                    |
+| time             | string     | null: false                    |
+| start_time       | datetime   | null: false                    |
 | contact          | text       |                                |
 | user             | references | null: false, foreign_key: true |
 | plan             | references | null: false, foreign_key: true |
@@ -82,9 +85,9 @@ Basic認証ID: 2222
 
 ## reservation_order table
 
-| Column                | Type                | Options                   |
-|-----------------------|---------------------|---------------------------|
-| reservation           | references          | foreign_key: true         |
+| Column                | Type                | Options             |
+|-----------------------|---------------------|---------------------|
+| reservation           | references          | foreign_key: true   |
 
 ### Association
 - belongs_to :user
