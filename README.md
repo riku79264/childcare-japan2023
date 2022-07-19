@@ -83,6 +83,7 @@ Basic認証ID: 2222
 
 ### Association
 - belongs_to :user
+* has_one :reservation_order
 
 
 ## reservation_order table
@@ -92,4 +93,4 @@ Basic認証ID: 2222
 | reservation           | references          | foreign_key: true   |
 
 ### Association
-- belongs_to :user
+- belongs_to :reservation
